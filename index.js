@@ -20,7 +20,7 @@ app.listen(4000, () => {
               Likes: 18,
               answers: 20,
               theme: 'Nutricion',
-              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-30.jpg'
+              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-01.jpg'
           },
           {
               id:2,
@@ -29,7 +29,7 @@ app.listen(4000, () => {
               Likes: 8,
               answers: 2,
               theme: 'Nutricion',
-              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-30.jpg'
+              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-02.jpg'
           },
           {
               id:3,
@@ -38,7 +38,7 @@ app.listen(4000, () => {
               Likes: 8,
               answers: 2,
               theme: 'Nutricion',
-              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-30.jpg'
+              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-03.jpg'
           },
           {
               id:4,
@@ -47,7 +47,7 @@ app.listen(4000, () => {
               Likes: 18,
               answers: 20,
               theme: 'Salud',
-              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-30.jpg'
+              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-04.jpg'
           },
           {
               id:5,
@@ -56,7 +56,7 @@ app.listen(4000, () => {
               Likes: 8,
               answers: 2,
               theme: 'Salud',
-              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-30.jpg'
+              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-05.jpg'
           },
           {
               id:6,
@@ -65,7 +65,7 @@ app.listen(4000, () => {
               Likes: 8,
               answers: 2,
               theme: 'Salud',
-              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-30.jpg'
+              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-06.jpg'
           },
           {
               id:7,
@@ -74,7 +74,7 @@ app.listen(4000, () => {
               Likes: 18,
               answers: 20,
               theme: 'Medicinas',
-              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-30.jpg'
+              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-07.jpg'
           },
           {
               id:8,
@@ -83,7 +83,7 @@ app.listen(4000, () => {
               Likes: 8,
               answers: 2,
               theme: 'Medicinas',
-              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-30.jpg'
+              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-08.jpg'
           },
           {
               id:9,
@@ -92,7 +92,7 @@ app.listen(4000, () => {
               Likes: 8,
               answers: 2,
               theme: 'Medicinas',
-              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-30.jpg'
+              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-09.jpg'
           }
         ]);
        });
@@ -106,7 +106,7 @@ app.get("/Nutricion", (req, res) => {
         Likes: 18,
         answers: 20,
         theme: 'Nutricion',
-        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-30.jpg'
+        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-01.jpg'
     },
     {
         id:2,
@@ -115,7 +115,7 @@ app.get("/Nutricion", (req, res) => {
         Likes: 8,
         answers: 2,
         theme: 'Nutricion',
-        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-30.jpg'
+        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-02.jpg'
     },
     {
         id:3,
@@ -124,7 +124,7 @@ app.get("/Nutricion", (req, res) => {
         Likes: 8,
         answers: 2,
         theme: 'Nutricion',
-        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-30.jpg'
+        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-03.jpg'
     }
   ]);
 });
@@ -138,7 +138,7 @@ app.get("/Salud", (req, res) => {
         Likes: 18,
         answers: 20,
         theme: 'Salud',
-        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-30.jpg'
+        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-04.jpg'
     },
     {
         id:5,
@@ -147,7 +147,7 @@ app.get("/Salud", (req, res) => {
         Likes: 8,
         answers: 2,
         theme: 'Salud',
-        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-30.jpg'
+        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-05.jpg'
     },
     {
         id:6,
@@ -156,7 +156,7 @@ app.get("/Salud", (req, res) => {
         Likes: 8,
         answers: 2,
         theme: 'Salud',
-        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-30.jpg'
+        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-06.jpg'
     }
   ]);
 });
@@ -170,7 +170,7 @@ app.get("/Medicinas", (req, res) => {
         Likes: 18,
         answers: 20,
         theme: 'Medicinas',
-        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-30.jpg'
+        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-07.jpg'
     },
     {
         id:8,
@@ -179,7 +179,7 @@ app.get("/Medicinas", (req, res) => {
         Likes: 8,
         answers: 2,
         theme: 'Medicinas',
-        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-30.jpg'
+        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-08.jpg'
     },
     {
         id:9,
@@ -188,7 +188,7 @@ app.get("/Medicinas", (req, res) => {
         Likes: 8,
         answers: 2,
         theme: 'Medicinas',
-        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-30.jpg'
+        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-09.jpg'
     }
   ]);
 });
