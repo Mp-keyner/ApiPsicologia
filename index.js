@@ -14,11 +14,20 @@ app.get("/", (req, res) => {
   res.send([
     {
         id:1,
-        name: 'Dr. Keyner De la Hoz',
+        name: 'Dr. Keyner',
         time: 12,
         Likes: 18,
         answers: 20,
         theme: 'Nutricion',
+        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-30.jpg'
+    },
+    {
+        id:2,
+        name: 'Anonimo',
+        time: 20,
+        Likes: 8,
+        answers: 2,
+        theme: 'Salud',
         image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-30.jpg'
     }
   ]);
