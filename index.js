@@ -20,7 +20,7 @@ app.listen(4000, () => {
               Likes: 18,
               answers: 20,
               theme: 'Nutricion',
-              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-01.jpg'
+              image: 'https://firebasestorage.googleapis.com/v0/b/fb-picporter.appspot.com/o/doctor%2F4.png?alt=media&token=a9c6b891-281e-46dd-ab4d-0a9f91e9c521'
           },
           {
               id:2,
@@ -38,7 +38,7 @@ app.listen(4000, () => {
               Likes: 8,
               answers: 2,
               theme: 'Nutricion',
-              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-03.jpg'
+              image: 'https://firebasestorage.googleapis.com/v0/b/fb-picporter.appspot.com/o/doctor%2F10.png?alt=media&token=c34171bb-a7d9-4c16-9a7c-557ce23921d4'
           },
           {
               id:4,
@@ -47,7 +47,7 @@ app.listen(4000, () => {
               Likes: 18,
               answers: 20,
               theme: 'Salud',
-              image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-04.jpg'
+              image: 'https://firebasestorage.googleapis.com/v0/b/fb-picporter.appspot.com/o/doctor%2F11.png?alt=media&token=01553851-4d93-40d5-9168-3c31db3ac500'
           },
           {
               id:5,
@@ -106,7 +106,7 @@ app.get("/Nutricion", (req, res) => {
         Likes: 18,
         answers: 20,
         theme: 'Nutricion',
-        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-01.jpg'
+        image: 'https://firebasestorage.googleapis.com/v0/b/fb-picporter.appspot.com/o/doctor%2F4.png?alt=media&token=a9c6b891-281e-46dd-ab4d-0a9f91e9c521'
     },
     {
         id:2,
@@ -124,7 +124,7 @@ app.get("/Nutricion", (req, res) => {
         Likes: 8,
         answers: 2,
         theme: 'Nutricion',
-        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-03.jpg'
+        image: 'https://firebasestorage.googleapis.com/v0/b/fb-picporter.appspot.com/o/doctor%2F10.png?alt=media&token=c34171bb-a7d9-4c16-9a7c-557ce23921d4'
     }
   ]);
 });
@@ -138,7 +138,7 @@ app.get("/Salud", (req, res) => {
         Likes: 18,
         answers: 20,
         theme: 'Salud',
-        image: 'https://facelessapi.kiura.co/assets/avatars/Avatar-04.jpg'
+        image: 'https://firebasestorage.googleapis.com/v0/b/fb-picporter.appspot.com/o/doctor%2F11.png?alt=media&token=01553851-4d93-40d5-9168-3c31db3ac500'
     },
     {
         id:5,
