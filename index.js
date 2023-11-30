@@ -282,6 +282,21 @@ app.get("/PopularDoctor", (req, res) => {
 });
 
 
+app.get("/10", (req, res) => {
+  res.send([
+    {
+      name: "Dr. Oswaldo P.",
+      profession: "Psiquiatra",
+      hour: "18",
+      qualification: 9,
+      online: true,
+      photo: "https://firebasestorage.googleapis.com/v0/b/fb-picporter.appspot.com/o/doctor%2F4.png?alt=media&token=a9c6b891-281e-46dd-ab4d-0a9f91e9c521",
+      reviews: 20,
+      About: 'psiquiatra altamente calificado y experimentado que se dedica a proporcionar atención integral a sus pacientes. Con una sólida formación académica y años de experiencia clínica, el Dr. Oswaldo se ha destacado en el campo de la psiquiatría, brindando apoyo emocional y tratamientos efectivos a aquellos que buscan mejorar su salud mental.',
+    },
+  ]);
+});
+
 // app.get("/usuarios", (req, res) => {
 //   res.send([]);
 // });
